@@ -20,10 +20,3 @@ var lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
-
-// document.addEventListener('DOMContentLoaded', () => {
-//   const lightbox = new SimpleLightbox('.gallery a', {
-//     captionsData: 'alt',
-//     captionDelay: 250,
-//   });
-// });
