@@ -2,5 +2,5 @@ var t="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"u
     <a class="gallery__item" href="${t.original}">
       <img class="gallery__image" src="${t.preview}" alt="${t.description}" />
     </a>
-</li>`;d.insertAdjacentHTML("beforeend",e)}new(e&&e.__esModule?e.default:e)(".gallery a",{captionsData:"alt",captionDelay:250});
-//# sourceMappingURL=01-gallery.72d965e6.js.map
+</li>`;d.insertAdjacentHTML("beforeend",e)}d.style.listStyle="none",new(e&&e.__esModule?e.default:e)(".gallery a",{captionsData:"alt",captionDelay:250});
+//# sourceMappingURL=01-gallery.9985d751.js.map

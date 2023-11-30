@@ -2,5 +2,5 @@
     <a class="gallery__item" href="${t.original}">
       <img class="gallery__image" src="${t.preview}" alt="${t.description}" />
     </a>
-</li>`;d.insertAdjacentHTML("beforeend",e)}new(e&&e.__esModule?e.default:e)(".gallery a",{captionsData:"alt",captionDelay:250})}();
-//# sourceMappingURL=01-gallery.725291e0.js.map
+</li>`;d.insertAdjacentHTML("beforeend",e)}d.style.listStyle="none",new(e&&e.__esModule?e.default:e)(".gallery a",{captionsData:"alt",captionDelay:250})}();
+//# sourceMappingURL=01-gallery.36b73f1c.js.map
