@@ -32,11 +32,12 @@ load();
 form.addEventListener('submit', event => {
   event.preventDefault();
   localStorage.removeItem('feedback-form-state');
-  emailData.value = '';
-  messageData.value = '';
 
   console.log('Zapisane dane: ', {
     email: emailData.value,
     message: messageData.value,
   });
+
+  emailData.value = '';
+  messageData.value = '';
 });

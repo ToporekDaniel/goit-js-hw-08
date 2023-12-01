@@ -20,5 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const savedTime = JSON.parse(
     localStorage.getItem('videoplayer-current-time')
   );
-  player.setCurrentTime(savedTime);
+  if (savedTime !== null && savedTime !== undefined) {
+    player.setCurrentTime(savedTime);
+  }
 });
